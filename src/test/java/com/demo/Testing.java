@@ -14,14 +14,10 @@ import com.baseUtility.Base;
 public class Testing 
 {
 
-	@Test
+	@Test(retryAnalyzer = com.demo.IRetry.class)
 	public void main()
 	{
-	    List<Integer> list=Arrays.asList(23, 12, 1, 2, 4, 5, 12);
-	    
-	    List<Object> sortedList = list.stream().sorted().distinct().collect(Collectors.toList());
-	    
-	    System.out.println(sortedList);
+	    Assert.assertEquals("A", "B");
 	    
 	 
 		//f.m1();
