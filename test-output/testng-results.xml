@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-25T16:33:34 IST" name="Default suite" finished-at="2024-09-25T16:33:44 IST" duration-ms="9739">
+  <suite started-at="2024-09-26T18:07:59 IST" name="Default suite" finished-at="2024-09-26T18:08:03 IST" duration-ms="3841">
     <groups>
     </groups>
-    <test started-at="2024-09-25T16:33:34 IST" name="Default test" finished-at="2024-09-25T16:33:44 IST" duration-ms="9739">
-      <class name="ReadingExcel">
-        <test-method signature="readingExcel()[pri:0, instance:ReadingExcel@45752059]" started-at="2024-09-25T16:33:34 IST" name="readingExcel" finished-at="2024-09-25T16:33:44 IST" duration-ms="9679" status="PASS">
+    <test started-at="2024-09-26T18:07:59 IST" name="Default test" finished-at="2024-09-26T18:08:03 IST" duration-ms="3841">
+      <class name="com.demo.GraphQL_Execution">
+        <test-method signature="execute()[pri:0, instance:com.demo.GraphQL_Execution@557caf28]" started-at="2024-09-26T18:07:59 IST" name="execute" finished-at="2024-09-26T18:08:03 IST" duration-ms="3747" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- readingExcel -->
-      </class> <!-- ReadingExcel -->
+        </test-method> <!-- execute -->
+      </class> <!-- com.demo.GraphQL_Execution -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
